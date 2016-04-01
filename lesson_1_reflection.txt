@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    One could quickly compare the files line by line without going crosseyed
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Seeing what changed in the context of the goals helps you see why it was changed, whether or not it will work, and how to test it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    Pros of automatic commit are you don't have to remember to commit and so less risk of losing changes. Con is that if you are making a change over multiple files, you lose the context of why you made the change.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google docs is really meant to maintain office-style documents, where the relationships between the files may be tenuous at best. Git is about making changes to a multiple file system to achieve some end.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log can be used to see why you made the change. Using --oneline allows you to see quickly what changes and the hash on one line, while "-n" parameter allows you to look back n commits. 
+
+    Diff can show you the detailed changes in all files between commits by typing two commit hashes, the most recent last.
+
+How might using version control make you more confident to make changes that could break something?
+
+    One of the really cool things about Git is it allows you to branch. Branches in Git allow you to go down a path that might be very difficult to unwind because of all of the changes you made to get there. With branching, you can just move back to the last valid branch you were on and none of the changes you made would be propagated.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I use git on a daily basis for a corporate repo, but have not used GitHub in awhile. I want to take my next project here and move it to GitHub.
