@@ -8,13 +8,20 @@ It is a holding area to allow you to "freeze" files in anticipation of committin
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+You can use "git status" and "git diff" to make sure that only the files you want to check in for that commit are in the staging area and only the changes you want are there.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow one to work on individual changes independent of the master branch, which is usually the current desired state of the project. One can use this for "what-if" or variations of the master state, without impacting the master state.
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+Branches have a parent-child relationship to each other, that, if visualized via a diagram, can clarify how one would merge the branches back into each other in a way that would be very difficult to do by just looking at the list of branches and their relationships 
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches takes the code in both branches and makes it available in one branch. Diagramming allows one to see which code will supercede the other.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Handling conflicts, also makes sure that git did things correctly by having someone check it before it's checked in
