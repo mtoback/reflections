@@ -5,12 +5,15 @@ When would you want to create a remote repository rather than keeping all your w
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    You might be editing a file while an update was made remotely
+    It might update files while you are in the middle of creating an update and cause a merge issue
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    Fork is when you want to make a completely disconnected copy of a repository, such that you never want to reflect changes back into the original. Example would be where you want to take part of a program and use it, but build it up into an entirely different application.
+
+    clone gives you a completely disconnected copy, but you can connect it back to the original to allow you to do remote updates.
+
+    Branch is good for a what-if where you want to make incremental changes, with the intent of using merge to pull changes back into common branches
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
