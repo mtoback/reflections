@@ -20,12 +20,16 @@ stored locally?
 
     You can do merges and updates from the remote repository when you want to without having to be connected to the internet
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    One could either:
+       - Use some tool like email to pass files back and forth and use diff to determine the differences
+       - Use a repository like dropbox or google docs to share files and see what the differences are 
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+    and communicate via tools like skype or email to discuss changes
 
-    Fill in your answer here
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+	Master is meant to be the current version of whatever you are working on, branches are meant to be a way to try variants on the main theme 
+	or a staging area for sharing versions of the main theme before putting them out as "the gold standard"
+
