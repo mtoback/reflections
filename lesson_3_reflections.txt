@@ -18,7 +18,7 @@ Describe the differences between forks, clones, and branches.  When would you us
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can do merges and updates from the remote repository when you want to without having to be connected to the internet
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
